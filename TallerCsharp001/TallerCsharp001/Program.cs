@@ -7,6 +7,7 @@
  * Para cambiar esta plantilla use Herramientas | Opciones | Codificación | Editar Encabezados Estándar
  */
 using System;
+using System.IO;
 
 namespace TallerCsharp001
 {
@@ -31,12 +32,30 @@ namespace TallerCsharp001
 			string tarea = partes[2].Trim();
 			string nota = partes[3].Trim();
 			
-			Console.WriteLine(string.Format("El ID es: {0} del usuario {1} y la nota es: {2} en su {3}" , id, nombre, nota, tarea));
+			Console.WriteLine(string.Format("El id es: {0} del usuario {1} y la nota es: {2} en su {3}" , id, nombre, nota, tarea));
 			
+
+			//  2. Flujo en archivos
 			
+			string rutaRaiz = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "DatosIUJO");
 			
+			if(!Directory.Exists(rutaRaiz))
+			{
+				
+				Directory.CreateDirectory(rutaRaiz);
+				Console.WriteLine("Creado directorio correctamente");
+				
+			}
 			
+			string archivoTexto = Path.Combine(rutaRaiz, "notas.txt");
+			Console.WriteLine(archivoTexto);
 			
+			using (StreamWriter sw = new StreamWriter(archivoTexto, true))
+			{
+			
+				sw.WriteLine(string.Format("ID : {0} | nota : {1}" , id, nota));
+			
+			}
 			
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
