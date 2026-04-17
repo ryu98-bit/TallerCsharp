@@ -1,0 +1,6 @@
+C:\Users\usuario\Documents\TallerSeccionA\TallerCsharp001\TallerCsharp001\bin\Debug\TallerCsharp001.exe.config
+C:\Users\usuario\Documents\TallerSeccionA\TallerCsharp001\TallerCsharp001\bin\Debug\TallerCsharp001.exe
+C:\Users\usuario\Documents\TallerSeccionA\TallerCsharp001\TallerCsharp001\bin\Debug\TallerCsharp001.pdb
+C:\Users\usuario\Documents\TallerSeccionA\TallerCsharp001\TallerCsharp001\obj\Debug\TallerCsharp001.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Documents\TallerSeccionA\TallerCsharp001\TallerCsharp001\obj\Debug\TallerCsharp001.exe
+C:\Users\usuario\Documents\TallerSeccionA\TallerCsharp001\TallerCsharp001\obj\Debug\TallerCsharp001.pdb
