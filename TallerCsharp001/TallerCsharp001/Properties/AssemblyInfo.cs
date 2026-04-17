@@ -1,14 +1,19 @@
-﻿import System.Reflection
-import System.Runtime.InteropServices
+﻿#region Using directives
+
+using System;
+using System.Reflection;
+using System.Runtime.InteropServices;
+
+#endregion
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TallerCsharp01")]
+[assembly: AssemblyTitle("TallerCsharp001")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TallerCsharp01")]
+[assembly: AssemblyProduct("TallerCsharp001")]
 [assembly: AssemblyCopyright("Copyright 2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -21,7 +26,6 @@ import System.Runtime.InteropServices
 //
 // Major.Minor.Build.Revision
 //
-// You can specify all values by your own or you can build default build and revision
-// numbers with the '*' character (the default):
-
+// You can specify all the values or you can use the default the Revision and 
+// Build Numbers by using the '*' as shown below:
 [assembly: AssemblyVersion("1.0.*")]
